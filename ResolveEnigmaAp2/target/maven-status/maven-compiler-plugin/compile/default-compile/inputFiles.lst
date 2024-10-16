@@ -1,0 +1,14 @@
+/Users/sroscuro/IdeaProjects/ParcialEntrega/ResolveEnigmaAp2/src/main/java/co/com/vanegas/microservice/resolveEnigmaApi/api/ApiException.java
+/Users/sroscuro/IdeaProjects/ParcialEntrega/ResolveEnigmaAp2/src/main/java/co/com/vanegas/microservice/resolveEnigmaApi/model/JsonApiBodyRequest.java
+/Users/sroscuro/IdeaProjects/ParcialEntrega/ResolveEnigmaAp2/src/main/java/co/com/vanegas/microservice/resolveEnigmaApi/model/JsonApiBodyResponseErrors.java
+/Users/sroscuro/IdeaProjects/ParcialEntrega/ResolveEnigmaAp2/src/main/java/co/com/vanegas/microservice/resolveEnigmaApi/model/GetEnigmaRequest.java
+/Users/sroscuro/IdeaProjects/ParcialEntrega/ResolveEnigmaAp2/src/main/java/co/com/vanegas/microservice/resolveEnigmaApi/model/JsonApiBodyResponseSuccess.java
+/Users/sroscuro/IdeaProjects/ParcialEntrega/ResolveEnigmaAp2/src/main/java/co/com/vanegas/microservice/resolveEnigmaApi/model/GetEnigmaStepResponse.java
+/Users/sroscuro/IdeaProjects/ParcialEntrega/ResolveEnigmaAp2/src/main/java/co/com/vanegas/microservice/resolveEnigmaApi/api/ApiResponseMessage.java
+/Users/sroscuro/IdeaProjects/ParcialEntrega/ResolveEnigmaAp2/src/main/java/co/com/vanegas/microservice/resolveEnigmaApi/Swagger2SpringBoot.java
+/Users/sroscuro/IdeaProjects/ParcialEntrega/ResolveEnigmaAp2/src/main/java/co/com/vanegas/microservice/resolveEnigmaApi/api/NotFoundException.java
+/Users/sroscuro/IdeaProjects/ParcialEntrega/ResolveEnigmaAp2/src/main/java/co/com/vanegas/microservice/resolveEnigmaApi/model/Header.java
+/Users/sroscuro/IdeaProjects/ParcialEntrega/ResolveEnigmaAp2/src/main/java/co/com/vanegas/microservice/resolveEnigmaApi/api/GetStepApi.java
+/Users/sroscuro/IdeaProjects/ParcialEntrega/ResolveEnigmaAp2/src/main/java/co/com/vanegas/microservice/resolveEnigmaApi/api/GetStepApiController.java
+/Users/sroscuro/IdeaProjects/ParcialEntrega/ResolveEnigmaAp2/src/main/java/co/com/vanegas/microservice/resolveEnigmaApi/model/ErrorDetail.java
+/Users/sroscuro/IdeaProjects/ParcialEntrega/ResolveEnigmaAp2/src/main/java/co/com/vanegas/microservice/resolveEnigmaApi/api/ApiOriginFilter.java

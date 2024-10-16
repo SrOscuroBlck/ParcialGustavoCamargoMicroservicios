@@ -1,0 +1,61 @@
+services:
+  resolve-enigma-ap1:
+    build:
+      context: ./ResolveEnigmaAp
+      dockerfile: Dockerfile
+    container_name: resolve-enigma-ap1
+    ports:
+      - "8070:8070"
+
+
+  resolve-enigma-ap2:
+    build:
+      context: ./ResolveEnigmaAp2
+      dockerfile: Dockerfile
+    container_name: resolve-enigma-ap2
+    ports:
+      - "8080:8080"
+    depends_on:
+      - resolve-enigma-ap1
+
+
+  resolve-enigma-ap3:
+    build:
+      context: ./ResolveEnigmaAp3
+      dockerfile: Dockerfile
+    container_name: resolve-enigma-ap3
+    ports:
+      - "8090:8090"
+    depends_on:
+      - resolve-enigma-ap2
+
+  orchestrator:
+    build:
+      context: ./orchestrator-webflux
+      dockerfile: Dockerfile
+    container_name: orchestrator
+    ports:
+      - "9000:9000"
+    depends_on:
+      - resolve-enigma-ap3
+
+  webhook:
+    build:
+      context: ./webhook
+      dockerfile: Dockerfile
+    container_name: webhook
+    ports:
+      - "7002:7002"
+    depends_on:
+      - orchestrator
+
+  batch:
+    build:
+      context: ./batch
+      dockerfile: Dockerfile
+    container_name: batch
+    ports:
+      - "7001:7001"
+    depends_on:
+      - webhook
+
